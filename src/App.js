@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import CircleImg from './components/circleImg';
-import headshot1 from './assets/images/headshot1.JPG'
+import headShot1 from './assets/images/headshot1.JPG'
+import HeadingLine from './components/headingLine';
+
 function App() {
   return (
     <div className="App">
-      <CircleImg img={headshot1}/>
+      <CircleImg img={headShot1}/>
+      <HeadingLine/>
     </div>
   );
 }

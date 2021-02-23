@@ -3,7 +3,7 @@ import "./index.css"
 function CircleImg(props) {
     return(
         <dvi>
-            <img className="circle" src={props.img}></img>
+            <img uk-scrollspy="cls:uk-animation-slide-right" className="circle uk-margin-large-top" src={props.img}></img>
         </dvi>
     )
 }
